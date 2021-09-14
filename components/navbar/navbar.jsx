@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { Nav, NavElement, NavConteiner } from "./styles/index";
-export default function navbar()  {
+const Navbar = () => {
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () => {
     if (window.scrollY >= 80) {
