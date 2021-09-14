@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 
-const About = () => {
+export default function About  ()  {
   return (
     <>
       <Head>
