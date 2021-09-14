@@ -7,33 +7,10 @@ import Head from "next/head";
 const About = () => {
   return (
     <>
-      <Head>
-        <title>About</title>
-        <meta name="description" content="About sobre la empresa" />
-      </Head>
-      <Content>
-        <Sub>
-          <Img>
-            <Image
-            src="/logo_1024.png"
-              width={700}
-              height={700}
-              alt="Logo"
-            ></Image>
-          </Img>
-          <div>
-            
-          </div>
-        </Sub>
-      </Content>
+      
     </>
   );
 };
 
 export default About;
 
-const Content = styled.div``;
-const Sub = styled.div`
-  width: 50%;
-`;
-const Img = styled.div``;

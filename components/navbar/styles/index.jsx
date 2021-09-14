@@ -1,29 +1,34 @@
 import styled from "styled-components";
 
-export const NavConteiner = styled.div`
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  position: sticky;
-  background:blue;
-  top: 0;
-  .navbar {
-    background-color: transparent;
-  }
+export const Nav = styled.nav`
+background:#000;
+height:80px;
+display:flex;
+align-items:center;
+justify-content: space-between;
+padding: 0.5rem calc((100vw - 1000px) / 2);
+z-index:10;
+`
+export const NavLogo = styled.div`
+color:white;
+`
+export const NavMenu = styled.div`
+color:#fff;
+display:flex;
+align-items:center;
+text-decoration:none;
+padding: 0 1rem;
+height:100%;
+cursor:pointer;
+display:flex;
+align-items:center;
 
-  .navbar.colorChange {
-    background-color: #ff0000;
-  }
-`;
+a{
+ padding: 0 1rem;
+}
 
-export const Nav = styled.div`
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
-export const NavElement = styled.div`
-  a {
-    margin: 0 20px;
-  }
-`;
+@media (max-width: 768px){
+  display:none;
+}
+`
+export const NavButton = styled.div``

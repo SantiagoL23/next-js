@@ -1,29 +1,29 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { Nav, NavElement, NavConteiner } from "./styles/index";
-const Navbar = () => {
-  const [colorChange, setColorchange] = useState(false);
-  const changeNavbarColor = () => {
-    if (window.scrollY >= 80) {
-      setColorchange(true);
-    } else {
-      setColorchange(false);
-    }
-  };
+import { Nav, NavLogo, NavMenu, NavButton } from "./styles/index";
+import Link from "next/link";
+
+export function Navbar() {
   return (
     <>
-      <NavConteiner className={colorChange ? "navbar colorChange" : "navbar"}>
-        <Nav>
-          <h2>Logo</h2>
-          <NavElement>
-            <nav>
-              <a href="">Inicio</a>
-              <a href="">Contacto</a>
-            </nav>
-          </NavElement>
-        </Nav>
-      </NavConteiner>
+      <Nav>
+        <NavLogo>
+          <h1>LRZ</h1>
+        </NavLogo>
+        <NavMenu>
+          <Link href="/about">
+            <a>About</a>
+          </Link>
+          <Link href="/">
+            <a>Contact</a>
+          </Link>
+        </NavMenu>
+        <NavButton>
+          <button>LOG IN</button>
+        </NavButton>
+      </Nav>
     </>
   );
-};
+}
+
 export default Navbar;
