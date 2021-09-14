@@ -22,8 +22,7 @@ const About = () => {
             ></Image>
           </Img>
           <div>
-            <h3>ssuaidjas</h3>
-            <p>lorem ejfbhjgghgghj</p>
+            
           </div>
         </Sub>
       </Content>
