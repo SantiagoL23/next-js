@@ -5,6 +5,7 @@ export const NavConteiner = styled.div`
   display: flex;
   justify-content: center;
   position: sticky;
+  background:blue;
   top: 0;
   .navbar {
     background-color: transparent;
