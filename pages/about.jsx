@@ -5,8 +5,6 @@ export default function about() {
   return (
     <>
       <Navbar />
-      <h1>Prueba</h1>
-      <About />
     </>
   );
 }
