@@ -6,11 +6,12 @@ height:80px;
 display:flex;
 align-items:center;
 justify-content: space-between;
-padding: 1.5rem calc((100vw - 1000px) / 2);
+padding: 1.5rem calc((80vw - 1000px) / 2);
 z-index:10;
 `
 export const NavLogo = styled.div`
 color:white;
+padding: 0 0.5rem
 `
 export const NavMenu = styled.div`
 color:#fff;
@@ -31,4 +32,5 @@ a{
   display:none;
 }
 `
-export const NavButton = styled.div``
+export const NavButton = styled.div`
+padding: 0 0.5rem;`
