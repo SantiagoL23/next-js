@@ -14,12 +14,14 @@ export function Navbar() {
           <Link href="/about">
             <a>About</a>
           </Link>
-          <Link href="/">
+          <Link href="/contact">
             <a>Contact</a>
           </Link>
         </NavMenu>
         <NavButton>
-          <button>LOG IN</button>
+         <Link href="/signin">
+         <button>LOG IN</button>
+         </Link>
         </NavButton>
       </Nav>
     </>
