@@ -36,7 +36,7 @@ export default Navbar;
 const NavbarItems = styled.nav`
   background: black;
   color:#fff;
-  height: 80px;
+  height: 75px;
   display: flex;
  
   justify-content: center;
