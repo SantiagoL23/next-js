@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Navbar from "../components/navbar/navbar";
-import About from "../components/about_me/about";
+import Navbar from "../components/navbar/Navbar";
+
 export default function about() {
   return (
     <>
