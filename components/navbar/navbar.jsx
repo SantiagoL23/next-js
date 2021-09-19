@@ -51,7 +51,7 @@ const NavbarItems = styled.nav`
 `;
 const NavbarLogo = styled.div`
   color: white;
-  transform:translate(-10%, 10%);
+  
   justify-self: start;
   margin-left: 20px;
   @media(max-width:960px){
