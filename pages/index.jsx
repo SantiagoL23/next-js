@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 
 import Navbar from '../components/navbar/navbar';
-import ThemeSwitch from '../components/navbar/themeSwitch';
+import ThemeSwitch from '../components/navbar/themeswitch';
 import styled from 'styled-components';
 import styles from '../styles/Home.module.css'
 
