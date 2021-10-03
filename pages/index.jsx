@@ -4,7 +4,7 @@ import { Breaking } from '../components/breaking/breaking';
 
 
 import Navbar from '../components/navbar/navbar';
-import ThemeSwitch from '../components/navbar/ThemeSwitch';
+import ThemeSwitch from '../components/navbar/themeSwitch';
 import styled from 'styled-components';
 import styles from '../styles/Home.module.css'
 
