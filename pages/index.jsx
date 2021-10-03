@@ -17,7 +17,7 @@ export default function index() {
    <Navbar/>
    <Container>
       <main>
-        <h1>Hecho con NextJS</h1>
+        <h1>Hecho con Next</h1>
       
         <ThemeSwitch/>
       </main>
