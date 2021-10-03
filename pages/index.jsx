@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Breaking } from '../components/breaking/breaking';
+
 
 
 import Navbar from '../components/navbar/navbar';
